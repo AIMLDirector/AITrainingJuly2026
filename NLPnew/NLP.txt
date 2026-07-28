@@ -1,0 +1,68 @@
+1. Text classification
+2. sentiment analytics
+3. text summarization
+4 NER -- Named entity recognition
+5. Text Generation.  --   GPT model, grok model, gemini, llama, deepseek, qwen, 
+6. Machine Translation 
+
+understanding the word and sentence  -- NLP 
+
+
+Google search : word search -- NLP 
+how to learn python ? 
+
+how 
+to 
+
+
+learn python  -- ( website -- sorted -- ) - 1 page. ( learning + python , learned + python )
+python ( website -- sorted -- ) 2nd page
+
+learn ( website -- sorted -- ) -- 3rd page 
+
+
+context search -- 
+
+ learn python  -- meaning of the word , intent , context( history)
+
+ learn(verb, actionable word) - transformed to  -- learning , learned 
+ python ( coding language) - scripting, datascience, AI... 
+
+ intent ? 
+
+context 
+
+answer will be generic and it will not satify ur need
+
+i am developer with 10 years of experience , i want to develope a product , i want to learn python 
+
+context:
+1 developer with 10 years of experience 
+
+search information 
+learn python -- ( developer books, article,  blogs)
+
+intent:
+you want to develop a product 
+
+context + intent + search rule 
+
+NLP : 
+
+Word + sentence 
+
+NLP
+
+1. tokenization -- dividing the sentence  into individual words 
+2. stop word/filler word : i , am, who , when, what, how, in is
+3. stemming -- learning -- learn ,  60 % 
+4. lemmatization -- learning --  learn, learned - learned -- 95 % 
+5. part of speech tagging -- learn - verb, adjective , pronoun, noun , 
+6. NER - Named entity recognition  - tagging 
+7. chunking 
+
+i am studying/learning/swimming/working 
+
+london -- place
+Gandhi -- person 
+100 -- money.

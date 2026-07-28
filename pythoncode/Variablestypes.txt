@@ -1,0 +1,20 @@
+Data types 
+
+Basic Data types: int, float, String
+
+sequential Data types: list, tuples, dict
+
+
+
+Built int Data types methods:
+
+Text types : Str == '231432' or "i am learning python for 6.5, 6,10  months" 
+numeric types: int a = 1, float b = 2.34433, complex  c = 3j
+sequence types: list d = [1,2,3,4,3.5,"an"], tuples e = (), range range(10)
+set types: set {}
+boolean types: bool = f = True 
+mapping types : dict {a :10, b:20}
+binary types: bytes, bytearray ... -- networking coding 
+
+
+

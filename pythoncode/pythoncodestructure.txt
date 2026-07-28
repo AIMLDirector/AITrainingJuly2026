@@ -1,0 +1,26 @@
+1. import the module /package
+function - it is a piece of code which is used to certain action and it is reusable code /block of code
+module - group of functions put together in one place is call module 
+package - group of module put together create a package 
+
+internal packages it willbe coming along with python installation 
+
+external packages are provided by the vendor -- platform, os, middleware, cloud, db, data engineer, dashboard
+
+pypi.org
+
+2 variables 
+a = 1
+b = 2.5
+c = 'adfsda'
+
+3 loop/function/ class/condition 
+
+4 executing the code by integration (1,2,3)
+
+local variables -- We will be initializing the variables with the loops/class/function 
+global variables  -- we will be initializing the variable in the common place or on the start of the coding 
+
+
+
+
