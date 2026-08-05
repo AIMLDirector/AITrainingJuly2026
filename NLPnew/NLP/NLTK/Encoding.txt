@@ -1,0 +1,52 @@
+one hot encode ( 0,1)
+
+i  am  learning  python 
+1   0.   0.      0
+0   1.   0.      0
+0.  0.   1      0 
+0.  0.   0.     1
+
+learning  
+learn -- learn, learning, learned, 
+learning  -  meaning , word transformation information , grammer detials, position 
+learn -- 
+
+embedding (probability algorithm , meaning, suitable, alternative)
+ [10.13134 1.342142 2.44555 
+  9.444.   13.3233.  31.231234
+  3.5.     4.5.      6.7756 ] 
+
+
+  word2vec ( train the data ) -- model 
+
+  1. CBOW. --   learn -- i am learning python , i want to learn python 
+  2. skip gram algorithm  i am learning  python / i am studying python 
+
+learning == studying 
+[  ].   ==.  [ ]    ==.  0.02 -- matching 
+
+
+facebook  -- fasttext, genism  
+
+text generation -- Transformer 
+
+text generation -  coding, Q/A, sentiment , query, -- embedding model 
+
+text to vector -- embedded model 
+
+how to learn python --> vector -- vector search - model - gpt5.6 ( cosine similiarity, equailbirium distance ) -- model
+ input ( text to vector ) - embedding model 
+1
+2
+3
+
+ranking 
+
+
+
+
+summarize the output 
+ output(vector to text)  -- embedding model 
+
+output
+
