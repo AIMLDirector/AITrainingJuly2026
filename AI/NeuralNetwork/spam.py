@@ -45,6 +45,8 @@ model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"]
 # Train
 model.fit(X, labels, epochs=2, verbose=1)
 
+
+
 # Real-time test
 new_email = ["Urgent: you win a prize please register with your mobile number "]
 X_new = tokenizer.texts_to_sequences(new_email)

@@ -69,7 +69,9 @@ Best for	Small datasets	Large datasets
 
     
 
-  What is a neural network?
+
+What is a neural network?
+
 A neural network is a computational model inspired by the human brain's structure.
  It consists of interconnected processing units, or neurons, arranged in layers that learn 
  to recognize patterns in data. Neural networks are essential for deep learning, a subfield of machine learning that uses multi-layered networks to process and learn from complex data. 
@@ -88,6 +90,13 @@ Neural Network:
 https://www.tredence.com/blog/neural-networks-guide-basic-to-advance#:~:text=Neural%20networks%20are%20mathematical%20models,and%20improve%20performance%20during%20training.
 https://www.ibm.com/think/topics/neural-networks#:~:text=A%20neural%20network%20can%20be,email%20is%20spam%20or%20not.
 https://www.ibm.com/think/topics/deep-learning
+
+
+Tokenization & Embedding: Breaks input data into pieces and converts them into numerical vectors.
+Positional Encoding: Adds sequence order info since tokens are processed all at once.
+Self-Attention: Weighs the importance and context of words relative to each other using Queries, Keys, and Values.
+Multi-Head Attention: Runs multiple attention computations in parallel to capture different types of relationships.
+Feed-Forward Networks: Refines the features for each token independently after attention layers.
 
 
 

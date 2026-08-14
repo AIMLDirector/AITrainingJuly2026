@@ -1,0 +1,33 @@
+model : gemma4
+
+1. System prompt  -- > roles and responsibility (individual)
+      1 Role  - Data engineer, Developer , system engineer, cloud engineer 
+      2 context  - history of information ( you are 15 years in data engineer and you are a SME )
+      3 do & Dont  - you should answer only data related query 
+      4 security or organization standard -  you should valid the user before resoponding back and remove any sensitive information 
+         remove the company mail id, password, design ... 
+         generic answer or valid answer else i dont know 
+      5 standard output -- text file, raw output, json, yaml output 
+
+
+2.  user prompt : 
+    1 user query 
+    2 problem statement 
+    3 coding 
+    4 testing
+    5 design 
+
+3. AI prompt : Goal 
+    This is going to solve the problem of coding and testing issue in our company  , we need to provide a solutions
+    related with coding, integration coding, testing code, ......
+
+
+
+1. why we needed this prompt ? 
+speed
+narrow search
+context
+content 
+cost 
+
+
