@@ -1,0 +1,17 @@
+1 Failure 
+2 Latency
+3 cost
+
+Cost :
+1 model cost - 
+2 context managment - reduce cost, accuracy of the response 
+
+
+10 question -- ( 10 question & 10 answers ) -- every model have context length
+
+Limiting the context window or length 
+1. system prompt - valid and 100 word count - answer produced may be broader, lengthy contentent 
+2. tools output -- db ( 1000 rows )
+3. which are the tools should be used ( 20 tools) -- 5 to 10 tools 
+4. By default model will trim the context if the context length crossed the model context window -- summarized
+5. model always make the decision by taking the top most output and bottom most output  -- final output (it will give least important to middle output )

@@ -1,0 +1,127 @@
+{
+  "run_id": "20260605_135010_6002",
+  "timestamp": "2026-06-05T13:50:11.553264",
+  "query": "how are experiment results stored in ragas 0.3?",
+  "result": {
+    "answer": "The provided documents do not contain information on how experiment results are stored in ragas 0.3, as they discuss ragas related to Indian classical music and not any specific experimental framework or system. Therefore, I cannot provide an answer based on these documents.",
+    "run_id": "20260605_135010_6002"
+  },
+  "num_documents": 5,
+  "traces": [
+    {
+      "event_type": "query_start",
+      "component": "rag_system",
+      "data": {
+        "run_id": "20260605_135010_6002",
+        "question": "how are experiment results stored in ragas 0.3?",
+        "question_length": 47,
+        "top_k": 3,
+        "total_documents": 5
+      }
+    },
+    {
+      "event_type": "retrieval",
+      "component": "retriever",
+      "data": {
+        "operation": "retrieve_start",
+        "query": "how are experiment results stored in ragas 0.3?",
+        "query_length": 47,
+        "top_k": 3,
+        "total_documents": 5
+      }
+    },
+    {
+      "event_type": "retrieval",
+      "component": "retriever",
+      "data": {
+        "operation": "retrieve_complete",
+        "num_retrieved": 3,
+        "scores": [
+          3,
+          3,
+          1
+        ],
+        "document_ids": [
+          0,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "event_type": "retrieval",
+      "component": "retriever",
+      "data": {
+        "operation": "retrieve_start",
+        "query": "how are experiment results stored in ragas 0.3?",
+        "query_length": 47,
+        "top_k": 3,
+        "total_documents": 5
+      }
+    },
+    {
+      "event_type": "retrieval",
+      "component": "retriever",
+      "data": {
+        "operation": "retrieve_complete",
+        "num_retrieved": 3,
+        "scores": [
+          3,
+          3,
+          1
+        ],
+        "document_ids": [
+          0,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "event_type": "llm_call",
+      "component": "openai_api",
+      "data": {
+        "operation": "generate_response",
+        "model": "gpt-4o",
+        "query": "how are experiment results stored in ragas 0.3?",
+        "prompt_length": 520,
+        "context_length": 223,
+        "num_context_docs": 3
+      }
+    },
+    {
+      "event_type": "llm_response",
+      "component": "openai_api",
+      "data": {
+        "operation": "generate_response",
+        "response_length": 275,
+        "usage": {
+          "completion_tokens": 52,
+          "prompt_tokens": 124,
+          "total_tokens": 176,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        },
+        "model": "gpt-4o"
+      }
+    },
+    {
+      "event_type": "query_complete",
+      "component": "rag_system",
+      "data": {
+        "run_id": "20260605_135010_6002",
+        "success": true,
+        "response_length": 275,
+        "num_retrieved": 3
+      }
+    }
+  ]
+}
